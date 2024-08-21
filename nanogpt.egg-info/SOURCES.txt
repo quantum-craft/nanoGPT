@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nanogpt/__init__.py
+nanogpt/model.py
+nanogpt.egg-info/PKG-INFO
+nanogpt.egg-info/SOURCES.txt
+nanogpt.egg-info/dependency_links.txt
+nanogpt.egg-info/top_level.txt

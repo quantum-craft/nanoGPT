@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nanogpt
+Version: 0.1.5.9
+Summary: A simple Transformer.
+Home-page: 
+Author: Hallo.Q
+Author-email: dunkee182@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
