@@ -74,6 +74,7 @@ class CausalSelfAttention(nn.Module):
             1, 2
         )  # (B, nh, T, hs)
 
+        # TODO: make sure the version of PyTorch supports of Flash Attention, 2, 3 or more...
         # causal self-attention; Self-attend: (B, nh, T, hs) x (B, nh, hs, T) -> (B, nh, T, T)
         if self.flash:
             # efficient attention using Flash Attention CUDA kernels
